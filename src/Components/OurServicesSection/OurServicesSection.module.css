@@ -25,3 +25,9 @@
   object-fit: fill;
   border-radius: 5px;
 }
+
+@media only screen and (max-width: 831px) {
+  .services_section_container {
+    justify-content: center;
+  }
+}
