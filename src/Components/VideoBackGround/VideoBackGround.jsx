@@ -59,6 +59,7 @@ function VideoBackGround() {
         </div>
         <video ref={videoRef} playsInline muted loop style={style}>
           <source type="video/mp4" src="/vi.mp4" />
+          <source src="/vi.webm" type="video/webm"></source>
         </video>
       </div>
     </>
